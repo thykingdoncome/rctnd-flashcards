@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "FlashCard",
+    "slug": "FlashCard",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/cardd.png",
+    "splash": {
+      "image": "./assets/welcomeHand.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/cardd.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.tysonic.FlashCard"
+    },
+    "web": {
+      "favicon": "./assets/cardd.png"
+    }
+  }
+}
